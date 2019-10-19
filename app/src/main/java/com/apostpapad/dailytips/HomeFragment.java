@@ -289,7 +289,11 @@ public class HomeFragment extends Fragment {
      * Check if tip is in favorites
      */
     private boolean isFavorite() {
-
+        for (int favoriteIndex : favoriteIndexes) {
+            if (favoriteIndex == shownTipIndex) {
+                return true;
+            }
+        }
         return false;
     }
 
