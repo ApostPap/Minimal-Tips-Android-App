@@ -2,8 +2,7 @@
     <string name="app_name">Minimal Tips</string>
     <string name="app_version">1.21</string>
     <string name="contact_email">apo.i.papadopoulos@gmail.com</string>
-    <string name="adAppID">ca-app-pub-4454462771644708~2222822596</string>
-    <string name="adAppHomeBannerID">ca-app-pub-4454462771644708/1537616256</string>
+   
     <string name="adAppIDTest">ca-app-pub-3940256099942544~3347511713</string>
     <string name="adAppHomeBannerIDTest">ca-app-pub-3940256099942544/6300978111</string>
 
