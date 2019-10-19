@@ -281,7 +281,8 @@ public class HomeFragment extends Fragment {
      * Calls method from shared preferences to remove tip to favorites
      */
     private void removeFromFavorites() {
-
+        favoriteBool = false;
+        preferencesConfig.writeRemoveFavoriteTip(shownTipIndex);
         Toast.makeText(getContext(), "Removed from favorites", Toast.LENGTH_SHORT).show();
 
     }
