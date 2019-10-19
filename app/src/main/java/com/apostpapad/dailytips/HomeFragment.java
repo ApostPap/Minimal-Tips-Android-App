@@ -270,7 +270,8 @@ public class HomeFragment extends Fragment {
      */
     private void addToFavorites() {
 
-
+        favoriteBool = true;
+        preferencesConfig.writeAddFavoriteTip(shownTipIndex);
         Toast.makeText(getContext(), "Added to favorites.", Toast.LENGTH_SHORT).show();
 
     }
