@@ -78,7 +78,25 @@ public class FavoritesFragment extends Fragment {
      * @param position Tip position
      */
     private void removeFavorite(int position) {
+        int index = favoriteTipsIndexes[position];
+        preferencesConfig.writeRemoveFavoriteTip(index);
 
+        favoriteTipsIndexes =preferencesConfig.readFavoriteTips();
+
+        if(favoriteTipsIndexes.length==1 && favoriteTipsIndexes[0]==-1)
+        {
+            Log.d(TAG, "removeFromFavorite: len=1");
+            int[] favoriteTemp = new int[1];
+            favoriteTemp[0]=-1;
+            listView.setVisibility(View.INVISIBLE);
+            noFavoriteTipsTV.setVisibility(View.VISIBLE);
+            preferencesConfig.writeFavoriteTips(favoriteTemp);
+        }
+        else {
+            favoritesNum = favoriteTipsIndexes.length;
+            customAdapter.notifyDataSetChanged();
+
+        }
     }
 
     /**
