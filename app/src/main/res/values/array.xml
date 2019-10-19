@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Headings</item>
+        <item>Headings and Details</item>
+        <item>All Data</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="pref_upload_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    
+    <string-array name="theme_names">
+        <item>Minimal White</item>
+        <item>Dark Night</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>minimal_white</item>
+        <item>dark_night</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="tips">
+        <item>Focus on Quality Over Quantity.</item>
+        <item>Make some rules for yourself.</item>
+        <item>Resist nothing.</item>
+        <item>Be part of something larger than yourself.</item>
+        <item>Always expect happiness.</item>
+        <item>Feed Your Mind Daily. </item>
+        <item>Memorize something everyday.</item>
+        <item>Don’t take life so seriously!</item>
+        <item>Set and Keep a Morning Routine. </item>
+        <item>Think about solutions, not about problems.</item>
+        <item>Become an explorer.</item>
+        <item>Read books.</item>
+        <item>Help others.</item>
+        <item>Sleep less.</item>
+        <item>Smile more often.</item>
+        <item>Listen to relaxing, uplifting music.</item>
+        <item>Floss!</item>
+        <item>Play, laugh, enjoy, be silly.</item>
+        <item>Failure is only feedback.</item>
+        <item>Life will always have downsides.</item>
+        <item>Take cold showers.</item>
+        <item>Explore, adventure.</item>
+        <item>You are what you eat.</item>
+        <item>Set aside a specific time to worry each day.</item>
+        <item>Start your day off right.</item>
+        <item>Develop an endless curiosity about this world.</item>
+        <item>Remember people\'s names.</item>
+        <item>Go for walks.</item>
+        <item>Judge your success by what you had to give up in order to get it.</item>
+        <item>Remain open to all perspectives.</item>
+        <item>Be honest at all times.</item>
+        <item>Cut out the crap.</item>
+        <item>Do what you love.</item>
+        <item>Don’t compare yourself to others.</item>
+        <item>Get in the sun.</item>
+        <item>Express Gratitude Daily.</item>
+        <item>“An eye for an eye makes the whole world blind”.</item>
+        <item>Be vulnerable.Let other people in.</item>
+        <item>Get fit!</item>
+        <item>Question Everything.</item>
+        <item>Be Careful About the Words You Use.</item>
+        <item>Learn to be unaffected by the words of others.</item>
+        <item>Embrace uncertainty.</item>
+        <item>You are not a “bad” person.</item>
+        <item>Quit Complaining.</item>
+        <item>Take Your Sleep Seriously.</item>
+        <item>Meditate Daily.</item>
+        <item>Take advantage of the flinch. Stay on the bold side.</item>
+        <item>Learn to use and trust your subconscious/intuition.</item>
+        <item>Learn to Say “No”.</item>
+        <item>Memento mori.</item>
+        <item>Write a To-Do List the Night Before.</item>
+        <item>Always look at what you have done and not at what you haven\'t.</item>
+        <item>Remember that Success Takes Time.</item>
+        <item>Stop trying to control everything.</item>
+        <item>Be the person that makes others feel special.</item>
+        <item>Focus on Building an Amazing Life. Not Just Making More Money.</item>
+        <item>Choose Yourself.</item>
+        <item>Advertisements are designed to make you feel bad about yourself.</item>
+        <item>Spend time alone each day.</item>
+        <item>Remember that You Are Going to Die.</item>
+        <item>Don’t burn bridges.</item>
+        <item>Practice Stoicism.</item>
+        <item>Work on making good first impressions.</item>
+        <item>Consciously give thanks often.</item>
+        <item>Learn to focus only on the present.</item>
+        <item>Drink water.</item>
+        <item>Do pushups (100 of them!)</item>
+        <item>Relax!</item>
+        <item>Figure out what your goals and dreams are.</item>
+        <item>Dance.</item>
+        <item>Develop the ability to forgive.</item>
+        <item>Always make time for family and friends.</item>
+        <item>Limit your time-wasting online activities.</item>
+        <item>Keep your brain sharp.</item>
+        <item>Give your mom a call.</item>
+        <item>Avoid binary thinking.</item>
+        <item>Don’t doubt anything without absolute evidence against it.</item>
+        <item>Let exercise become a natural part of your life.</item>
+        <item>Question what you have been told to be true but have not investigated yourself.</item>
+        <item>Travel.</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

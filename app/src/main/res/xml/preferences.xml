@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+    <PreferenceCategory android:title=" "
+
+       />
+
+    <PreferenceCategory android:title="General"
+
+        >
+
+<!--
+        <Preference
+
+            android:summary="Get themes, ad-free experience and help in the development of the app."
+            android:title="Become a premium user!!!"
+            android:key="@string/key_become_premium"
+            />
+-->
+        <ListPreference
+app:iconSpaceReserved="false"
+            android:dialogTitle="Themes"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_values"
+            android:key="@string/key_themes"
+            android:defaultValue="@string/default_theme"
+            android:summary="@string/summary_themes"
+            android:title="@string/title_theme" />
+
+
+        <!--
+
+        <CheckBoxPreference
+            android:title="Notify daily."
+            android:defaultValue="true"
+            android:summary="Sent a notification every day for a new tip."
+            android:key="@string/key_notify_daily"
+            />
+            -->
+
+        <Preference
+
+            android:summary="Can not be reversed!"
+            android:title="Clear all favorites"
+            android:key="@string/key_clear_favorites"
+            />
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="@string/pref_header_about"
+>
+
+        <Preference
+
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version"
+            android:key="@string/key_version" />
+
+        <Preference
+            android:key="@string/key_rate_app"
+            android:summary="@string/summary_rate_app"
+            android:title="@string/title_rate_app" />
+
+        <Preference
+            android:title="@string/title_privacy_policy"
+            android:key="@string/key_privacy_policy">
+
+        </Preference>
+
+        <Preference android:title="@string/title_terms_conditions"
+            android:key="@string/key_terms_conditions">
+        </Preference>
+
+        <!--
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_send_feedback"
+            android:title="@string/title_send_feedback" />
+           -->
+        <!-- preference opens url in browser -->
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/backgroundColor"
+    android:id="@+id/add_tip_layout">
+
+    <EditText
+        android:id="@+id/tipEditText"
+        android:layout_width="0dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Your Tip"
+        app:backgroundTint="?attr/textColor"
+        android:textColor="?attr/textColor"
+        android:textColorHint="?attr/checkBoxColor"
+        android:inputType="textPersonName"
+        android:maxLength="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.39999998" />
+
+    <Button
+        android:id="@+id/addTipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add your tip"
+
+        android:textColor="?attr/backgroundColor"
+        android:background="@drawable/round_corner_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="Add your Tips"
+        android:textAlignment="center"
+        android:textColor="?attr/textColor"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/uploadCheckBox"
+        android:textColor="?attr/textColor"
+        android:buttonTint="?attr/textColor"
+
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="Also upload your tip to be added in the next update for others to learn."
+        app:layout_constraintBottom_toTopOf="@+id/addTipButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

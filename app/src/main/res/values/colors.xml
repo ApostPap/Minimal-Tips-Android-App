@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <!-- Minimal White Theme -->
+    <color name="whiteColorPrimary">#ffffff</color>
+    <color name="whiteColorPrimaryDark">#858585</color>
+    <color name="whiteColorAccent">#000000</color>
+
+    <!-- Dark Night Theme -->
+    <color name="darkColorPrimary">#858585</color>
+    <color name="darkColorPrimaryDark">#000000</color>
+    <color name="darkColorAccent">#ffffff</color>
+
+    <!-- Dark Night Theme -->
+    <color name="sepiaColorPrimary">#e9b785</color>
+    <color name="sepiaColorPrimaryDark">#da8532</color>
+    <color name="sepiaColorAccent">#7f4b17</color>
+
+</resources>

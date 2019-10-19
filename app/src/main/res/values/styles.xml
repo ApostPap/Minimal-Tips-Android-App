@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Light application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/whiteColorPrimary</item>
+        <item name="colorPrimaryDark">@color/whiteColorPrimaryDark</item>
+        <item name="colorAccent">@color/whiteColorAccent</item>
+        <item name="backgroundColor">#fafafa</item>
+        <item name="textColor">#000000</item>
+        <item name="buttonColor">#000000</item>
+        <item name="buttonTextColor">#ffffff</item>
+        <item name="checkBoxColor">#1a1919</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay2</item>
+
+
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorAccent">@color/whiteColorAccent</item>
+        <item name="backgroundColor">#0d0d0d</item>
+        <item name="textColor">#ffffff</item>
+        <item name="buttonColor">#ffffff</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="checkBoxColor">#fcfcfc</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay2</item>
+
+
+    </style>
+
+
+    <style name="PreferenceThemeOverlay2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorAccent">@color/whiteColorAccent</item>
+
+
+    </style>
+
+
+
+</resources>
